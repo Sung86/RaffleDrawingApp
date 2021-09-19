@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A70129E4245CF97C003D7CF8 /* Raffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70129E3245CF97C003D7CF8 /* Raffle.swift */; };
+		A70129E6245CF9D6003D7CF8 /* RaffleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70129E5245CF9D6003D7CF8 /* RaffleViewController.swift */; };
+		A70129E8245CFB21003D7CF8 /* RaffleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70129E7245CFB21003D7CF8 /* RaffleCollectionViewCell.swift */; };
+		A71866572461870400C6A4E3 /* CreateRaffleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71866562461870400C6A4E3 /* CreateRaffleViewController.swift */; };
+		A7345EAD247C190C0003A93E /* HistoryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7345EAC247C190C0003A93E /* HistoryDetailViewController.swift */; };
+		A7345EAF247C1F490003A93E /* HistoryDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7345EAE247C1F490003A93E /* HistoryDetailTableViewCell.swift */; };
+		A7345EB7247EC4330003A93E /* WinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7345EB6247EC4330003A93E /* WinnersTableViewController.swift */; };
+		A7345EB9247EC47D0003A93E /* WinnersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7345EB8247EC47D0003A93E /* WinnersTableViewCell.swift */; };
+		A75EE16B247909DF005420F9 /* ExistingBuyerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75EE16A247909DF005420F9 /* ExistingBuyerTableViewCell.swift */; };
+		A75EE16D247AA52B005420F9 /* Winner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75EE16C247AA52B005420F9 /* Winner.swift */; };
+		A7A5959E245EDC1C0065F819 /* RaffleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A5959D245EDC1C0065F819 /* RaffleDetailViewController.swift */; };
+		A7D894422473E1DA00EABC0F /* TicketDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D894412473E1DA00EABC0F /* TicketDetailViewController.swift */; };
+		A7D894442474215500EABC0F /* DrawRaffleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D894432474215500EABC0F /* DrawRaffleViewController.swift */; };
+		A7E67DA024632DBA00ADC942 /* EditRaffleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E67D9F24632DBA00ADC942 /* EditRaffleViewController.swift */; };
+		A7E67DA22464529200ADC942 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E67DA12464529100ADC942 /* Ticket.swift */; };
+		D3290754221FAC6800D31C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3290753221FAC6800D31C68 /* AppDelegate.swift */; };
+		D3290759221FAC6800D31C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3290757221FAC6800D31C68 /* Main.storyboard */; };
+		D329075B221FAC6800D31C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D329075A221FAC6800D31C68 /* Assets.xcassets */; };
+		D3290766221FAC8500D31C68 /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3290765221FAC8500D31C68 /* SQLiteDatabase.swift */; };
+		F719BE0E2459447F00675197 /* Raffles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F719BE0D2459447F00675197 /* Raffles.storyboard */; };
+		F719BE102459457100675197 /* Winners.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F719BE0F2459457100675197 /* Winners.storyboard */; };
+		F719BE122459458200675197 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F719BE112459458200675197 /* History.storyboard */; };
+		F719BE142459459100675197 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F719BE132459459100675197 /* Settings.storyboard */; };
+		F7393FED24799956009A579E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7393FEC24799956009A579E /* HistoryViewController.swift */; };
+		F7393FEF24799A9C009A579E /* HistoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7393FEE24799A9C009A579E /* HistoryCollectionViewCell.swift */; };
+		F76F3FCB24670E4200072036 /* SellRaffleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F3FCA24670E4200072036 /* SellRaffleTableViewController.swift */; };
+		F7EB18FE2472E9EA00975BF0 /* TicketsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EB18FD2472E9EA00975BF0 /* TicketsListTableViewController.swift */; };
+		F7EB19002472EB0B00975BF0 /* TicketsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EB18FF2472EB0B00975BF0 /* TicketsListTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A70129E3245CF97C003D7CF8 /* Raffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raffle.swift; sourceTree = "<group>"; };
+		A70129E5245CF9D6003D7CF8 /* RaffleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffleViewController.swift; sourceTree = "<group>"; };
+		A70129E7245CFB21003D7CF8 /* RaffleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffleCollectionViewCell.swift; sourceTree = "<group>"; };
+		A71866562461870400C6A4E3 /* CreateRaffleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRaffleViewController.swift; sourceTree = "<group>"; };
+		A7345EAC247C190C0003A93E /* HistoryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailViewController.swift; sourceTree = "<group>"; };
+		A7345EAE247C1F490003A93E /* HistoryDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailTableViewCell.swift; sourceTree = "<group>"; };
+		A7345EB6247EC4330003A93E /* WinnersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewController.swift; sourceTree = "<group>"; };
+		A7345EB8247EC47D0003A93E /* WinnersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewCell.swift; sourceTree = "<group>"; };
+		A75EE16A247909DF005420F9 /* ExistingBuyerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExistingBuyerTableViewCell.swift; sourceTree = "<group>"; };
+		A75EE16C247AA52B005420F9 /* Winner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Winner.swift; sourceTree = "<group>"; };
+		A7A5959D245EDC1C0065F819 /* RaffleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffleDetailViewController.swift; sourceTree = "<group>"; };
+		A7D894412473E1DA00EABC0F /* TicketDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDetailViewController.swift; sourceTree = "<group>"; };
+		A7D894432474215500EABC0F /* DrawRaffleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawRaffleViewController.swift; sourceTree = "<group>"; };
+		A7E67D9F24632DBA00ADC942 /* EditRaffleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRaffleViewController.swift; sourceTree = "<group>"; };
+		A7E67DA12464529100ADC942 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		D3290750221FAC6800D31C68 /* KIT305-Assignment2-Cat_Sung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KIT305-Assignment2-Cat_Sung.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3290753221FAC6800D31C68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3290758221FAC6800D31C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D329075A221FAC6800D31C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D329075F221FAC6800D31C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3290765221FAC8500D31C68 /* SQLiteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabase.swift; sourceTree = "<group>"; };
+		F719BE0D2459447F00675197 /* Raffles.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Raffles.storyboard; sourceTree = "<group>"; };
+		F719BE0F2459457100675197 /* Winners.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Winners.storyboard; sourceTree = "<group>"; };
+		F719BE112459458200675197 /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		F719BE132459459100675197 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		F7393FEC24799956009A579E /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		F7393FEE24799A9C009A579E /* HistoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		F76F3FCA24670E4200072036 /* SellRaffleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellRaffleTableViewController.swift; sourceTree = "<group>"; };
+		F7EB18FD2472E9EA00975BF0 /* TicketsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsListTableViewController.swift; sourceTree = "<group>"; };
+		F7EB18FF2472EB0B00975BF0 /* TicketsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsListTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D329074D221FAC6800D31C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7345EB5247EC3FD0003A93E /* Winners */ = {
+			isa = PBXGroup;
+			children = (
+				A7345EB6247EC4330003A93E /* WinnersTableViewController.swift */,
+			);
+			path = Winners;
+			sourceTree = "<group>";
+		};
+		A7A5959F245EDDD10065F819 /* Raffles */ = {
+			isa = PBXGroup;
+			children = (
+				A70129E5245CF9D6003D7CF8 /* RaffleViewController.swift */,
+				A7A5959D245EDC1C0065F819 /* RaffleDetailViewController.swift */,
+				A71866562461870400C6A4E3 /* CreateRaffleViewController.swift */,
+				A7E67D9F24632DBA00ADC942 /* EditRaffleViewController.swift */,
+				F76F3FCA24670E4200072036 /* SellRaffleTableViewController.swift */,
+				F7EB18FD2472E9EA00975BF0 /* TicketsListTableViewController.swift */,
+				A7D894412473E1DA00EABC0F /* TicketDetailViewController.swift */,
+				A7D894432474215500EABC0F /* DrawRaffleViewController.swift */,
+			);
+			path = Raffles;
+			sourceTree = "<group>";
+		};
+		A7DD9E502452D8EF0055BCED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7E67DA12464529100ADC942 /* Ticket.swift */,
+				D3290765221FAC8500D31C68 /* SQLiteDatabase.swift */,
+				A70129E3245CF97C003D7CF8 /* Raffle.swift */,
+				A75EE16C247AA52B005420F9 /* Winner.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3290747221FAC6800D31C68 = {
+			isa = PBXGroup;
+			children = (
+				D3290752221FAC6800D31C68 /* KIT305-Assignment2-Cat_Sung */,
+				D3290751221FAC6800D31C68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3290751221FAC6800D31C68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3290750221FAC6800D31C68 /* KIT305-Assignment2-Cat_Sung.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3290752221FAC6800D31C68 /* KIT305-Assignment2-Cat_Sung */ = {
+			isa = PBXGroup;
+			children = (
+				F719BE0C2459445000675197 /* Storyboard */,
+				A7DD9E502452D8EF0055BCED /* Model */,
+				F7AF5D49244F2FD600D20124 /* Controller */,
+				F7AF5D48244F2FB000D20124 /* View */,
+				D3290753221FAC6800D31C68 /* AppDelegate.swift */,
+				D329075A221FAC6800D31C68 /* Assets.xcassets */,
+				D329075F221FAC6800D31C68 /* Info.plist */,
+			);
+			path = "KIT305-Assignment2-Cat_Sung";
+			sourceTree = "<group>";
+		};
+		F719BE0C2459445000675197 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D3290757221FAC6800D31C68 /* Main.storyboard */,
+				F719BE0D2459447F00675197 /* Raffles.storyboard */,
+				F719BE0F2459457100675197 /* Winners.storyboard */,
+				F719BE112459458200675197 /* History.storyboard */,
+				F719BE132459459100675197 /* Settings.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F7393FEB24799931009A579E /* History */ = {
+			isa = PBXGroup;
+			children = (
+				F7393FEC24799956009A579E /* HistoryViewController.swift */,
+				A7345EAC247C190C0003A93E /* HistoryDetailViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		F7AF5D48244F2FB000D20124 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A70129E7245CFB21003D7CF8 /* RaffleCollectionViewCell.swift */,
+				F7EB18FF2472EB0B00975BF0 /* TicketsListTableViewCell.swift */,
+				A75EE16A247909DF005420F9 /* ExistingBuyerTableViewCell.swift */,
+				F7393FEE24799A9C009A579E /* HistoryCollectionViewCell.swift */,
+				A7345EAE247C1F490003A93E /* HistoryDetailTableViewCell.swift */,
+				A7345EB8247EC47D0003A93E /* WinnersTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7AF5D49244F2FD600D20124 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7345EB5247EC3FD0003A93E /* Winners */,
+				F7393FEB24799931009A579E /* History */,
+				A7A5959F245EDDD10065F819 /* Raffles */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D329074F221FAC6800D31C68 /* KIT305-Assignment2-Cat_Sung */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3290762221FAC6800D31C68 /* Build configuration list for PBXNativeTarget "KIT305-Assignment2-Cat_Sung" */;
+			buildPhases = (
+				D329074C221FAC6800D31C68 /* Sources */,
+				D329074D221FAC6800D31C68 /* Frameworks */,
+				D329074E221FAC6800D31C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KIT305-Assignment2-Cat_Sung";
+			productName = Tutorial5;
+			productReference = D3290750221FAC6800D31C68 /* KIT305-Assignment2-Cat_Sung.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3290748221FAC6800D31C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Vuong Cat VO - 504783";
+				TargetAttributes = {
+					D329074F221FAC6800D31C68 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = D329074B221FAC6800D31C68 /* Build configuration list for PBXProject "KIT305-Assignment2-Cat_Sung" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3290747221FAC6800D31C68;
+			productRefGroup = D3290751221FAC6800D31C68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D329074F221FAC6800D31C68 /* KIT305-Assignment2-Cat_Sung */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D329074E221FAC6800D31C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F719BE0E2459447F00675197 /* Raffles.storyboard in Resources */,
+				F719BE102459457100675197 /* Winners.storyboard in Resources */,
+				D329075B221FAC6800D31C68 /* Assets.xcassets in Resources */,
+				D3290759221FAC6800D31C68 /* Main.storyboard in Resources */,
+				F719BE122459458200675197 /* History.storyboard in Resources */,
+				F719BE142459459100675197 /* Settings.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D329074C221FAC6800D31C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75EE16B247909DF005420F9 /* ExistingBuyerTableViewCell.swift in Sources */,
+				F7393FEF24799A9C009A579E /* HistoryCollectionViewCell.swift in Sources */,
+				A70129E8245CFB21003D7CF8 /* RaffleCollectionViewCell.swift in Sources */,
+				A7E67DA024632DBA00ADC942 /* EditRaffleViewController.swift in Sources */,
+				A75EE16D247AA52B005420F9 /* Winner.swift in Sources */,
+				A7D894442474215500EABC0F /* DrawRaffleViewController.swift in Sources */,
+				A7345EAD247C190C0003A93E /* HistoryDetailViewController.swift in Sources */,
+				F76F3FCB24670E4200072036 /* SellRaffleTableViewController.swift in Sources */,
+				A7345EB7247EC4330003A93E /* WinnersTableViewController.swift in Sources */,
+				D3290754221FAC6800D31C68 /* AppDelegate.swift in Sources */,
+				F7EB18FE2472E9EA00975BF0 /* TicketsListTableViewController.swift in Sources */,
+				A7E67DA22464529200ADC942 /* Ticket.swift in Sources */,
+				A71866572461870400C6A4E3 /* CreateRaffleViewController.swift in Sources */,
+				F7393FED24799956009A579E /* HistoryViewController.swift in Sources */,
+				A7A5959E245EDC1C0065F819 /* RaffleDetailViewController.swift in Sources */,
+				A7345EAF247C1F490003A93E /* HistoryDetailTableViewCell.swift in Sources */,
+				D3290766221FAC8500D31C68 /* SQLiteDatabase.swift in Sources */,
+				A70129E6245CF9D6003D7CF8 /* RaffleViewController.swift in Sources */,
+				A7345EB9247EC47D0003A93E /* WinnersTableViewCell.swift in Sources */,
+				F7EB19002472EB0B00975BF0 /* TicketsListTableViewCell.swift in Sources */,
+				A7D894422473E1DA00EABC0F /* TicketDetailViewController.swift in Sources */,
+				A70129E4245CF97C003D7CF8 /* Raffle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3290757221FAC6800D31C68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3290758221FAC6800D31C68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3290760221FAC6800D31C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3290761221FAC6800D31C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3290763221FAC6800D31C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 892DZ3A58K;
+				INFOPLIST_FILE = "KIT305-Assignment2-Cat_Sung/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kit305.assignment2.cat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3290764221FAC6800D31C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 892DZ3A58K;
+				INFOPLIST_FILE = "KIT305-Assignment2-Cat_Sung/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kit305.assignment2.cat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D329074B221FAC6800D31C68 /* Build configuration list for PBXProject "KIT305-Assignment2-Cat_Sung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3290760221FAC6800D31C68 /* Debug */,
+				D3290761221FAC6800D31C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3290762221FAC6800D31C68 /* Build configuration list for PBXNativeTarget "KIT305-Assignment2-Cat_Sung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3290763221FAC6800D31C68 /* Debug */,
+				D3290764221FAC6800D31C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3290748221FAC6800D31C68 /* Project object */;
+}
